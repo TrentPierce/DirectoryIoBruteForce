@@ -13,10 +13,10 @@ public class DirectoryIoBruteForce {
 		int Low = 10;
 		int High = 74;
 		int Result = r.nextInt(High - Low) + Low;
-		String res = "";
+		String res = 1;
 		for (int i = 0; i < Result; i++) {
-			int random = r.nextInt(10 - 0) + 0;
-			res += random;
+			//int random = r.nextInt(10 - 0) + 0;
+			res ++;
 		}
 		return res;
 	}
